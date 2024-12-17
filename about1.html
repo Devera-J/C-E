@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/C-E/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>C&E WEB PAGE</title>
+</head>
+<body>
+    <div class="header">
+
+
+    <div class="Main">
+        <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="../C-E/background/LOGO.png" width="110px">
+            </a>
+        </div>
+    <nav>
+        <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about1.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="account.html">Account</a></li>
+        </ul>
+    </nav>
+    <a href="cart.html"><img class="cart" src="../C-E/image/cart.png"></a>
+    <img class="menu-icon" src="../C-E/image/menu.png" onclick="menutoggle()">
+</div>
+<div class="row">
+    <div class="col-2">
+        <h1>About Us</h1>
+        <p class="us">Consistently Delicious Since 1986. First choice, top of mind, most favorite pizza in Ilocos Norte.</p>
+        <small>"Welcome to C&E Pizza Pasta, where passion for pizza meets the finest ingredients and a warm, welcoming atmosphere. Our mission is simple: to craft authentic, delicious pizzas that bring people together. Whether you're here for a casual meal with friends or celebrating a special occasion, we promise a dining experience that feels like home. From our carefully selected dough and fresh toppings to our wood-fired oven, every pizza we make is a masterpiece!"</small>
+        <div class="social">
+            <a href="https://www.facebook.com/CandEPizzaPasta"> <i class="ri-facebook-box-fill"></i></a>
+             <a href="#"> <i class="ri-instagram-line"></i></a>
+            <a href="#"> <i class="ri-twitter-fill"></i></a>
+        </div>
+        <a href="https://www.facebook.com/CandEPizzaPasta" class="btn">Visit page &#8594;</a>
+    </div>
+    <div class="col-2">
+        <img class="page" src="../C-E/background/LOGO.png" width="100%">
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Andriond and IOS mobile phone. </p>
+                    <div class="app-logo">
+                        <img src="../C-E/image/google-play.jpg" >
+                        <img src="../C-E/image/apple.png" >
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="../C-E/background/LOGO.png" class="downlogo">
+                    <p>Our purpose is to provide delicious, high-quality pizzas <br> in a welcoming br environment offering a satisfying dining experience <br> for customers to enjoy with friends and family. </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Poilicy</li>
+                        <li>Join Page</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright">Copyright 2024 C&E</p>
+        </div>
+    </div>
+ 
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {   MenuItems.style.maxHeight = "0px";
+
+            }
+        }
+    </script>
+
+
+</body>
+</html>
